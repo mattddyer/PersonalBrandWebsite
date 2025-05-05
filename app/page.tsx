@@ -219,7 +219,7 @@ export default function HomePage() {
                 Take the first step towards confidently investing in crypto and digital assets.
               </p>
             </div>
-            <div className="mx-auto grid max-w-5xl items-center gap-6 py-8 md:py-12 lg:grid-cols-2 lg:gap-12">
+            <div className="mx-auto grid max-w-5xl items-center gap-3 py-4 md:py-8 lg:grid-cols-2 lg:gap-8">
               <div className="flex flex-col justify-center space-y-4 order-2 lg:order-1">
                 <div className="space-y-2">
                   <h3 className="text-xl md:text-2xl font-bold">Crypto Advisory Intro Call</h3>
@@ -270,11 +270,18 @@ export default function HomePage() {
                   className="max-w-lg flex-1 bg-white/10 text-white border-slate-700 placeholder:text-slate-400"
                 />
                 <Button
-                  type="submit"
+                  asChild
+                  type="button"
                   className="inline-flex items-center gap-2 bg-teal-500 hover:bg-teal-600 text-white w-full sm:w-auto"
                 >
-                  Subscribe
-                  <ArrowRight className="h-4 w-4" />
+                  <a
+                    href="https://shoogle-newsletter-308559.beehiiv.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Subscribe
+                    <ArrowRight className="h-4 w-4" />
+                  </a>
                 </Button>
               </form>
               <p className="text-xs text-slate-400">I respect your privacy. Unsubscribe at any time.</p>
