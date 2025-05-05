@@ -246,7 +246,7 @@ export default function HomePage() {
                 width={600}
                 height={400}
                 alt="Secure Crypto Investment Vault"
-                className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full order-1 lg:order-2"
+                className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full order-1 lg:order-2 mb-8"
               />
             </div>
           </div>
