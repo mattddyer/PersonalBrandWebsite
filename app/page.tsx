@@ -111,10 +111,7 @@ export default function HomePage() {
                     Your <span className="text-teal-400">Crypto Journey</span> Starts Here
                   </h1>
                   <p className="max-w-[600px] text-slate-300 text-base md:text-xl">
-                    I help <span className="text-white font-medium">individuals and businesses</span>{" "}
-                    <span className="text-teal-400">use blockchain</span> to{" "}
-                    <span className="text-white font-medium">grow</span> their investments and{" "}
-                    <span className="text-teal-400">build</span> secure portfolios
+                    I assist individuals and businesses in investing in crypto to grow their portfolios and gain exposure to this often intimidating asset class with confidence and ease.
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
