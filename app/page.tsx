@@ -219,7 +219,7 @@ export default function HomePage() {
                 Take the first step towards confidently investing in crypto and digital assets.
               </p>
             </div>
-            <div className="mx-auto grid max-w-5xl items-center gap-3 py-4 md:py-8 lg:grid-cols-2 lg:gap-8">
+            <div className="mx-auto grid max-w-5xl items-center gap-0 py-0 lg:grid-cols-2 lg:gap-4">
               <div className="flex flex-col justify-center space-y-4 order-2 lg:order-1">
                 <div className="space-y-2">
                   <h3 className="text-xl md:text-2xl font-bold">Crypto Advisory Intro Call</h3>
