@@ -27,14 +27,12 @@ jobs:
         run: npm install -g pnpm
       - name: Install dependencies
         run: pnpm install
-        working-directory: PersonalBrandWebsite
       - name: Build with Next.js
         run: pnpm run build
-        working-directory: PersonalBrandWebsite
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: PersonalBrandWebsite/out
+          path: out
 
   deploy:
     environment:
