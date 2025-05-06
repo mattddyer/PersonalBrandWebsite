@@ -121,7 +121,7 @@ export default function HomePage() {
                 </div>
               </div>
               <Image
-                src={process.env.NODE_ENV === 'production' ? '/PersonalBrandWebsite/profile.jpeg' : '/profile.jpeg'}
+                src="/profile.jpeg"
                 width={500}
                 height={600}
                 alt="Matt Dyer - Crypto Expert"
