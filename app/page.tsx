@@ -352,10 +352,6 @@ export default function HomePage() {
               <Twitter className="h-5 w-5" />
               <span className="sr-only">Twitter</span>
             </Link>
-            <Link href="#" className="text-slate-400 hover:text-teal-400">
-              <Instagram className="h-5 w-5" />
-              <span className="sr-only">Instagram</span>
-            </Link>
           </div>
         </div>
       </footer>
