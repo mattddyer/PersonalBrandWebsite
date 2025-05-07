@@ -224,8 +224,7 @@ export default function HomePage() {
                 <div className="space-y-2">
                   <h3 className="text-xl md:text-2xl font-bold">Crypto Advisory Intro Call</h3>
                   <p className="text-slate-700 text-base md:text-lg">
-                    Book a 30-minute intro call to explore how I can help transform your business or personal investment
-                    portfolio. We'll discuss your goals and identify actionable steps to succeed in the crypto space.
+                    Schedule a no-obligation 30-minute introductory call to explore how I can help your business or personal investment portfolio gain exposure to crypto. We'll discuss your goals and identify clear, actionable steps to successfully enter the cryptocurrency space.
                   </p>
                   <div className="flex flex-col gap-2 min-[400px]:flex-row pt-4">
                     <Button
@@ -249,6 +248,39 @@ export default function HomePage() {
                 className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full order-1 lg:order-2 mb-8"
               />
             </div>
+
+            {/* New Service Section */}
+            <div className="mx-auto grid max-w-5xl items-center gap-0 py-12 lg:grid-cols-2 lg:gap-4">
+              <Image
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image.jpg-M5Tf0wf8OcfDAKncFj4HilnzKKO5OF.jpeg"
+                width={600}
+                height={400}
+                alt="Crypto Security and Trading"
+                className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full order-1 lg:order-1 mb-8"
+              />
+              <div className="flex flex-col justify-center space-y-4 order-2 lg:order-2">
+                <div className="space-y-2">
+                  <h3 className="text-xl md:text-2xl font-bold">Crypto Trading & Security Mastery</h3>
+                  <p className="text-slate-700 text-base md:text-lg">
+                    Learn the essential skills to confidently buy, trade, and secure your cryptocurrency tokens. I'll guide you through setting up secure wallets, understanding different trading platforms, and implementing best practices for protecting your digital assets.
+                  </p>
+                  <div className="flex flex-col gap-2 min-[400px]:flex-row pt-4">
+                    <Button
+                      className="inline-flex items-center gap-2 bg-teal-500 hover:bg-teal-600 text-white w-full sm:w-auto"
+                      asChild
+                    >
+                      <Link href="https://cal.com/mattdyer/15min?month=2025-05">
+                        <Calendar className="h-4 w-4" />
+                        Start Learning
+                      </Link>
+                    </Button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p className="text-sm text-slate-500 italic text-center mt-8">
+              Cryptocurrency is a highly volatile asset class without government-backed protections. Past performance does not guarantee future results, and your invested capital is at risk.
+            </p>
           </div>
         </section>
 
