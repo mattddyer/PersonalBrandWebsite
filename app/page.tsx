@@ -16,7 +16,7 @@ export default function HomePage() {
       {/* Header */}
       <header className="sticky top-0 z-50 w-full border-b bg-slate-800/95 backdrop-blur supports-[backdrop-filter]:bg-slate-800/80">
         <div className="container flex h-16 items-center justify-between">
-          <Link href="/" className="flex items-center space-x-2">
+          <Link href="https://shoogleadvisory.xyz" className="flex items-center space-x-2">
             <div className="bg-teal-500 p-2 rounded">
               <span className="font-bold text-white text-sm">SHOOGLE</span>
             </div>
@@ -138,6 +138,9 @@ export default function HomePage() {
             <div className="flex flex-col items-start space-y-4">
               <h2 className="text-2xl font-bold tracking-tighter sm:text-4xl md:text-5xl">I'm Matt Dyer</h2>
               <div className="space-y-4">
+                <p className="max-w-[900px] text-slate-700 text-base md:text-xl/relaxed">
+                  At <Link href="https://www.shoogleadvisory.xyz/" className="text-teal-500 hover:text-teal-600">SHOOGLE</Link>, we shake up digital asset investing. Our mission is to make crypto simple and secure for busy professionals and businesses. You own your keys; we provide the expert guidance to make it happen.
+                </p>
                 <p className="max-w-[900px] text-slate-700 text-base md:text-xl/relaxed">
                   I help individuals and businesses navigate the complexities of crypto, providing tailored education
                   and strategic direction to confidently invest in this asset class.
