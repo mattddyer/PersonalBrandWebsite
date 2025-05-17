@@ -17,9 +17,14 @@ export default function HomePage() {
       <header className="sticky top-0 z-50 w-full border-b bg-slate-800/95 backdrop-blur supports-[backdrop-filter]:bg-slate-800/80">
         <div className="container flex h-16 items-center justify-between">
           <Link href="https://shoogleadvisory.xyz" className="flex items-center space-x-2">
-            <div className="bg-teal-500 p-2 rounded">
-              <span className="font-bold text-white text-sm">SHOOGLE</span>
-            </div>
+            <Image
+              src="/noBgWhite.png"
+              alt="SHOOGLE Logo"
+              width={48}
+              height={48}
+              className="h-12 w-auto object-contain"
+              priority
+            />
           </Link>
           <nav className="hidden md:flex items-center space-x-8">
             <Link href="#" className="text-sm font-medium text-white hover:text-teal-400 transition-colors">
